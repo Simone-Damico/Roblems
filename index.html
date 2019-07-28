@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="resources/jquery-3.2.1.min.js"></script>
+    <script src="index.js" language="JavaScript" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ProgettoRoblems.css" />
+    <link rel="stylesheet" type="text/css" href="modal.css" />
+    <link rel="shortcut icon" href="resources/immagini/icona.png" />
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpuShiDSi1Hq1WKc-O9FMXRp_2eivSLgg&callback=init"></script>
+</head>
+<body>
+    <div class="main">
+        <h1><span id="rob">Rob</span>lems</h1>
+        <p><b>Ti trovi qui:</b><br><span id="qui"></span></p>
+        <form id="form" action="ProgettoRoblems.html" hidden>
+            <label> Vuoi cambiare lingua?<br>
+                <select name="lingua">
+                    <option value="Italiano">Italiano</option>
+                    <option value="English">English</option>
+                </select>
+            </label><br>
+            <input type="hidden" name="volume" value="on">
+            <input type="submit" value="Start">
+        </form>
+    </div>
+    <div class="navigation">
+        <a id="about">About</a>
+        <a id="credits">Credits</a>
+        <a id="sound"><img src="resources/immagini/sound.png" height="47"></a>
+    </div>
+
+    <!-- Finestra Credits -->
+    <div id="finestra-credits" class="modal">
+        <!-- Contenuto Credits -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" id="close-credits">&times;</span>
+                <h2>Credits</h2>
+            </div>
+            <div class="modal-body">
+                <!-- In italiano -->
+                <div lang="ita">
+                    <p>Pagina web realizzata da:</p>
+                    <ul>
+                        <li>Simone D'Amico</li>
+                        <li>Giovanni Ficarra</li>
+                        <li>Marco Villari</li>
+                    </ul>
+                    <p>Librerie usate:</p>
+                    <ul>
+                        <li><a target="_blank" href="http://api.jquery.com/">JQuery</a></li>
+                        <li><a target="_blank" href="https://ipinfo.io/">Geolocalizzazione tramite IP</a></li>
+                        <li><a target="_blank" href="https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding">Google Maps API - reverse geocoding</a></li>
+                        <li><a target="_blank" href="http://ricostacruz.com/jquery.transit/">Transit</a></li>
+                        <li><a target="_blank" href="http://d3pie.org/">d3pie</a></li>
+                        <li><a target="_blank" href="https://w3c.github.io/speech-api/speechapi.html#tts-section">Web Speech API</a></li>
+                    </ul>
+                    <p>Altre risorse:</p>
+                    <ul>
+                        <li>Icona del sito: <i>Robot by Vladimir Belochkin from the Noun Project</i></li>
+                        <li>Icone del volume: <i>Sound/No sound by Adrien Coquet from the Noun Project</i></li>
+                        <li>Immagini: <i>Marco Villari</i></li>
+                    </ul>
+                </div>
+                <!-- In inglese -->
+                <div lang="eng" hidden>
+                    <p>Web page by:</p>
+                    <ul>
+                        <li>Simone D'Amico</li>
+                        <li>Giovanni Ficarra</li>
+                        <li>Marco Villari</li>
+                    </ul>
+                    <p>Used libraries:</p>
+                    <ul>
+                        <li><a target="_blank" href="http://api.jquery.com/">JQuery</a></li>
+                        <li><a target="_blank" href="https://ipinfo.io/">Geolocation via IP</a></li>
+                        <li><a target="_blank" href="https://developers.google.com/maps/documentation/javascript/geocoding#ReverseGeocoding">Google Maps API - reverse geocoding</a></li>
+                        <li><a target="_blank" href="http://ricostacruz.com/jquery.transit/">Transit</a></li>
+                        <li><a target="_blank" href="http://d3pie.org/">d3pie</a></li>
+                        <li><a target="_blank" href="https://w3c.github.io/speech-api/speechapi.html#tts-section">Web Speech API</a></li>
+                    </ul>
+                    <p>Other resources:</p>
+                    <ul>
+                        <li>Website icon: <i>Robot by Vladimir Belochkin from the Noun Project</i></li>
+                        <li>Volume icons: <i>Sound/No sound by Adrien Coquet from the Noun Project</i></li>
+                        <li>Images: <i>Marco Villari</i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Finestra About -->
+    <div id="finestra-about" class="modal">
+        <!-- Contenuto About -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" id="close-about">&times;</span>
+                <h2>About</h2>
+            </div>
+            <div class="modal-body">
+                <!-- In italiano -->
+                <div lang="ita">
+                    <p>Siamo tre studenti del corso di <a href="http://www.dis.uniroma1.it/~rosati/lw/">
+                        Linguaggi e Tecnologie per il Web</a> tenuto dal <a href="http://www.dis.uniroma1.it/~rosati/">
+                        professor R. Rosati</a>.<br>
+                        Abbiamo realizzato questa pagina web per il progetto del 2017.
+                        Il nostro intento è quello di favorire l'interesse verso i problemi etici legati
+                        all'intelligenza artificiale coinvolgendo l'utente in prima persona.
+                    </p>
+                    <p>
+                        Link utili:
+                    </p>
+                    <ul>
+                        <li><a target="_blank" href="https://giofic95.github.io/Roblems/">Questo progetto online (in caso fossi arrivato qui per altre vie)</a></li>
+                        <li>Il codice sorgente di questo progetto: <a target="_blank" href="https://bitbucket.org/GioFic95/roblems/">Bitbucket</a>, <a target="_blank" href="https://github.com/GioFic95/Roblems">GitHub</a></li>
+                    </ul>
+                </div>
+                <!-- In inglese -->
+                <div lang="eng" hidden>
+                    <p> We are three students of <a href="http://www.dis.uniroma1.it/~rosati/lw/">
+                        Languages and Technologies for the Web</a> held by the <a href="http://www.dis.uniroma1.it/~rosati/">
+                        Professor R. Rosati</a>.<br>
+                        We have created this web page for the 2017 project.<br>
+                        Our intent is to encourage interest in the ethical problems related
+                        to artificial intelligence involving the user in first person.
+                    </p>
+                    <p>
+                        Useful links:
+                    </p>
+                    <ul>
+                        <li><a target="_blank" href="https://giofic95.github.io/Roblems/">This project online (in case you came here by other means)</a></li>
+                        <li>The source code of this project: <a target="_blank" href="https://bitbucket.org/GioFic95/roblems/">Bitbucket</a>, <a target="_blank" href="https://github.com/GioFic95/Roblems">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

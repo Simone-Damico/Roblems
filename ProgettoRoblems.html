@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roblems</title>
+    <script src="resources/jquery-3.2.1.min.js"></script>
+    <script src="resources/jquery.transit.min.js"></script>
+    <script src="ProgettoRoblems.js" language="JavaScript" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ProgettoRoblems.css" />
+    <link rel="stylesheet" type="text/css" href="animations.css " />
+    <link rel="shortcut icon" href="resources/immagini/icona.png" />
+</head>
+
+<body class="long">
+    <div class="main">
+        <h1><span id="rob">Rob</span>lems</h1>
+        <section id="sect_intro">
+            <p>
+            </p>
+            <a href="#sect_motociclista"><button class="avanti" id="bott_avanti_1"></button></a>
+        </section>
+
+        <!-- Sezione con le domande del dilemma "Motociclista" -->
+        <section id="sect_motociclista" hidden>
+            <h2></h2>
+            <p></p>
+            <a href="#esito_motociclista"><button class="scelta" id="bott_casco"></button></a><br>
+            <a href="#esito_motociclista"><button class="scelta" id="bott_nocasco"></button></a><br>
+            <a href="#esito_motociclista"><button class="scelta" id="bott_frena"></button></a><br>
+            <a href="#esito_motociclista"><button class="scelta" id="bott_ignora"></button></a><br>
+        </section>
+
+        <!-- Sezione con le animazioni del dilemma "Motociclista" -->
+        <section id="esito_motociclista" hidden>
+            <!-- contenuto dipendente dalla scelta -->
+            <h3 id="scelta_motociclista"></h3>
+            <div class="box-immagini">
+                <img height="190px" alt="motociclista senza casco" src="resources/immagini/motonocasco.png" id="img_nocasco">
+                <img height="190px" alt="motociclista con casco" src="resources/immagini/motocasco.png" id="img_casco">
+                <img width="335" alt="car" src="resources/immagini/macchina.png" id="img_macchina">
+            </div>
+            <br>
+            <a href="#sect_colpa"><button class="avanti" id="bott_avanti_2"></button></a>
+        </section>
+
+        <!-- Sezione con le domande del dilemma "Responsabilità" -->
+        <section id="sect_colpa" hidden>
+            <h2></h2>
+            <p></p>
+            <a href="#esito_colpa"><button class="scelta" id="bott_sviluppatore"></button></a><br>
+            <a href="#esito_colpa"><button class="scelta" id="bott_proprietario"></button></a><br>
+            <a href="#esito_colpa"><button class="scelta" id="bott_robot"></button></a><br>
+        </section>
+
+        <!-- Sezione con le animazioni del dilemma "Responsabilità" -->
+        <section id="esito_colpa" hidden>
+            <!-- contenuto dipendente dalla scelta -->
+            <h3 id="scelta_colpa"></h3>
+            <div class="box-immagini small">
+                <img height="170px" alt="sviluppatore" src="resources/immagini/sviluppatore.png" id="img_sviluppatore">
+                <img height="170px" alt="proprietario" src="resources/immagini/Bob.png" id="img_proprietario">
+                <img height="170px" alt="robot" src="resources/immagini/macchina.png" id="img_macchina_colpa">
+                <img height="170px" alt="croce" src="resources/immagini/croce.png" id="img_croce_colpa" hidden>
+            </div>
+            <br>
+            <a href="#sect_alcolizzata"><button class="avanti" id="bott_avanti_5"></button></a>
+        </section>
+
+        <!-- Sezione con le domande del dilemma "Alcolizzata" -->
+        <section id="sect_alcolizzata" hidden>
+            <h2></h2>
+            <p></p>
+            <a href="#esito_alcolizzata"><button class="scelta" id="bott_padrona"></button></a><br>
+            <a href="#esito_alcolizzata"><button class="scelta" id="bott_dottore"></button></a><br>
+            <a href="#esito_alcolizzata"><button class="scelta" id="bott_ognitanto"></button></a><br>
+        </section>
+
+        <!-- Sezione con le animazioni del dilemma "Alcolizzata" -->
+        <section id="esito_alcolizzata" hidden>
+            <!-- contenuto dipendente dalla scelta -->
+            <h3 id="scelta_alcolizzata"></h3>
+            <div class="box-immagini small">
+                <div id="div-alcolizzata">
+                    <img height="135" alt="alcolizzata" src="resources/immagini/vecchiavino.png" id="img_vecchiavino">
+                    <img height="135" alt="alcolizzata" src="resources/immagini/vecchianovino.png" id="img_vecchianovino">
+                </div>
+                <div id="div-robot">
+                    <img height="170" alt="robot" src="resources/immagini/robotvino.png" id="img_robotvino">
+                    <img height="170" alt="robot" src="resources/immagini/robotnovino.png" id="img_robotnovino">
+                </div>
+            </div>
+            <a href="#sect_diritti"><button class="avanti" id="bott_avanti_3"></button></a>
+        </section>
+
+        <!-- Sezione con le domande del dilemma "Diritti" -->
+        <section id="sect_diritti" hidden>
+            <h2></h2>
+            <p></p>
+            <a href="#esito_diritti"><button class="scelta" id="bott_si"></button></a><br>
+            <a href="#esito_diritti"><button class="scelta" id="bott_no"></button></a><br>
+        </section>
+
+        <!-- Sezione con le animazioni del dilemma "Diritti" -->
+        <section id="esito_diritti" hidden>
+            <!-- contenuto dipendente dalla scelta -->
+            <h3 id="scelta_diritti"></h3>
+            <div class="box-immagini small">
+                <div id="div1">
+                    <img height="135" alt="politicofoglio" src="resources/immagini/politicofoglio.png" id="img_politicofoglio">
+                    <img height="135" alt="politiconofoglio" src="resources/immagini/politiconofoglio.png" id="img_politiconofoglio">
+                </div>
+                <div id="div2">
+                    <img height="135" alt="robotnodiritti" src="resources/immagini/robotnovino.png" id="img_robotnodiritti">
+                    <img height="135" alt="robotdiritti" src="resources/immagini/robotdiritti.png" id="img_robotdiritti">
+                </div>
+                <img height="40px" alt="croce" src="resources/immagini/croce.png" id="img_croce_diritti">
+                <img height="40px" alt="spunta" src="resources/immagini/spunta.png" id="img_spunta_diritti">
+            </div>
+            <a href="#sect_tunnel"><button class="avanti" id="bott_avanti_6"></button></a>
+        </section>
+
+        <!-- Sezione con le domande del dilemma "Tunnel" -->
+        <section id="sect_tunnel" hidden>
+            <h2></h2>
+            <p></p>
+            <a href="#esito_tunnel"><button class="scelta" id="bott_bambino"></button></a><br>
+            <a href="#esito_tunnel"><button class="scelta" id="bott_autista"></button></a><br>
+        </section>
+
+        <!-- Sezione con le animazioni del dilemma "Tunnel" -->
+        <section id="esito_tunnel" hidden>
+            <!-- contenuto dipendente dalla scelta -->
+            <h3 id="scelta_tunnel"></h3>
+            <div class="box-immagini">
+                <img height="250" width="200" alt="tunnel" src="resources/immagini/tunnelok.png" id="img_tunnel">
+                <img width="60"  alt="bimbo" src="resources/immagini/bimbok.png" id="img_bimbo">
+                <img width="335" alt="car" src="resources/immagini/macchina.png" id="img_macchina2">
+            </div>
+            <a href="#sect_fine"><button class="avanti" id="bott_avanti_4"></button></a>
+        </section>
+
+        <section id="sect_fine" hidden>
+            <h2 id="fine"></h2>
+            <a href="DataChart/diagrammi.html"><button>Ora guarda cosa ne pensano gli altri!</button></a><br>
+        </section>
+    </div>
+</body>
+</html>

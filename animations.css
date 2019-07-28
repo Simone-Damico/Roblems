@@ -1,0 +1,93 @@
+img {
+    position: relative;
+}
+
+div.box-immagini {
+     height: 100vh;
+     width: 92.4vw;
+ }
+
+div.box-immagini.small {
+    height: 50vh;
+    width: 92.4vw;
+}
+
+#img_macchina {
+    left: 500px;
+    top: 200px;
+}
+
+#img_casco {
+    left: 100px;
+}
+
+#img_nocasco {
+    top: 400px;
+}
+
+#div-robot {
+    position: relative;
+    left: 700px;
+    width: 90px;
+    float: left;
+}
+
+#div-alcolizzata {
+    position: relative;
+    width: 100px;
+    float: left;
+    top: 35px;
+}
+
+#img_sviluppatore {
+    left: 50px;
+    position: absolute;
+}
+
+#img_proprietario {
+    left: 270px;
+    position: absolute;
+}
+
+#img_macchina_colpa {
+    left: 490px;
+    position: absolute;
+}
+
+#img_croce_colpa {
+    position: absolute;
+}
+
+#img_politico {
+    left: 50px;
+}
+
+
+#div2 {
+    position: relative;
+    left: 600px;
+    float: left;
+}
+
+#div1 {
+    float: left;
+}
+
+#img_croce_diritti, #img_spunta_diritti {
+    left: 400px;
+    top: 35px;
+    opacity: 0;
+}
+
+#img_macchina2 {
+    left: 400px;
+    top: 200px;
+}
+
+
+#img_bimbo {
+    left: 20px;
+    top: 210px;
+}
+
+#img_tunnel { top: 210px; }

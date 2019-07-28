@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, #00A99D 0%, #93278F 100%);
+}
+
+/*Il body della pagina principale ha una lunghezza prefissata in modo da poter scorrere man mano si procede.*/
+body.long {
+    height: 7000px;
+}
+
+/*Il body della pagina dei diagrammi si adatta alla dimensione del contenuto.*/
+body.adapt {
+    height: 100%;
+}
+
+div.main {
+    margin: 3.8vw;
+}
+
+p {
+    font: 18px "Roboto", sans-serif;
+    color: #d9d9d9;
+}
+
+h1 {
+    font: 72px "Roboto", sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#rob {
+    font: 72px "Roboto Slab", serif;
+    color: #5d5d5d;
+}
+
+h2 {
+    font: 28px "Roboto Slab", serif;
+    color: white;
+    margin-top: 50px;
+}
+
+h3 {
+    font: 20px "Roboto Slab", serif;
+    color: #f5f5f5;
+    margin-top: 40px;
+}
+
+ul {
+    color: white;
+    font: 14px "Roboto", sans-serif;
+}
+
+label {
+    font: 15px "Roboto", sans-serif;
+    margin-top: 5px;
+}
+
+select {
+    padding: 7px 10px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #ddd;
+    outline: none;
+    box-shadow: 3px 3px 2px grey;
+}
+
+button, input[type="submit"] {
+    padding: 7px 10px;
+    margin: 12px 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    border: 4px solid #333;
+    background: rgba(0,0,0,0);
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #333;
+    color: #ddd;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    color: #676767;
+}
+
+.avanti {
+    border-color: #451244;
+}
+
+.avanti:hover {
+    background-color: #451244;
+}
+
+.scelta {
+    border-color: #004742;
+}
+
+.scelta:hover {
+    background-color: #004742;
+}
+
+.avanti:hover:disabled, .scelta:hover:disabled {
+    background: rgba(0,0,0,0);
+    color: #676767;
+}
+
+#fine {
+    text-align: center;
+    color: black;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.navigation a {
+    float: left;
+    text-decoration: none;
+    padding: 20px;
+    color: #ddd;
+    font: 18px "Roboto", sans-serif;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: #333;
+    cursor: pointer;
+}
+
+#sound {
+    padding: 5px;
+}

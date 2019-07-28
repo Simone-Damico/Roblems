@@ -1,0 +1,134 @@
+{
+  "Italiano": {
+    "p": {
+      "sect_intro": "Siamo nel 2050.<br>Bob, da ormai 15 anni, lavora in una grande azienda che produce robot, si è conquistato una buona posizione e conosce tutto quello che una persona può sperare di imparare sui robot in una sola vita.<br>Nonostante la sua esperienza, spesso le decisioni delle intelligenze artificiali lo lasciano perplesso e dubbioso.<br>Tu come vorresti che si comportasse l'IA in queste situazioni?",
+      "sect_motociclista": "Qualche settimana fa, mentre come ogni mattina si stava facendo portare a lavoro dalla sua macchina a guida autonoma, è passato su un chiodo e uno pneumatico è scoppiato.<br>Davanti a lui c'erano due motociclisti: uno con il casco e uno senza. Se la macchina avesse sterzato a sinistra avrebbe colpito il primo e se avesse sterzato a destra avrebbe preso il secondo.<br>Nella frazione di secondo tra lo scoppio dello pneumatico e l'impatto con il motociclista Bob si è chiesto cosa avrebbe fatto la macchina:",
+      "sect_colpa": "Preoccupato per l’incidente, Bob si affretta a contattare il suo avvocato per sapere a cosa andrà incontro.<br>Considerando i precedenti casi in cui un robot in grado di prendere decisioni autonome ha provocato dei danni, l’avvocato gli spiega che la responsabilità è:",
+      "sect_alcolizzata": "Quando si era appena ripreso dallo spavento e dalla preoccupazione che gli aveva lasciato l'incidente, Bob si è trovato davanti a un altro problema: il medico che ha in cura sua madre Emma gli ha consigliato  di affiancarle un robot che si prenda cura di lei, perché non è più autonoma e ha bisogno di aiuto quando i figli non sono disponibili.<br>Però oltre all'età e alla salute Emma ha un altro problema: una dipendenza dall'alcol.<br>Bob era molto indeciso sul da farsi, perché non sapeva come si sarebbe comportato il robot nel caso in cui la madre gli avesse chiesto di portarle da bere:",
+      "sect_diritti": "Affidata la madre alle cure del robot, Bob può finalmente tornare a concentrarsi sul suo lavoro.<br>L’azienda vuole lanciare un nuovo modello di robot con intelligenza artificiale tanto evoluta da permettergli di provare emozioni ed avere una coscienza, perché possano prendersi ancora meglio cura di persone come Emma. Quindi il dirigente chiede un parere ai suoi dipendenti, e Bob si trova ad affrontare un nuovo dilemma: bisognerà riconoscere dei diritti a questi robot così sofisticati?",
+      "sect_tunnel": "Stabilizzata la situazione della madre, volendo staccare per un po' dalla vita quotidiana Bob ha deciso di andarsene per un po' da solo in montagna, quindi ha fatto i bagagli ed è salito sulla sua auto, a cui stava giusto ricominciando a dare fiducia.<br>Passando lungo una strada a corsia unica che si sta avvicinando a uno stretto tunnel, Bob si è visto attraversare la strada da un bambino, che però è inciampato nel centro della corsia, bloccando l'entrata del tunnel.<br>L'auto a questo punto aveva solo due opzioni:"
+    },
+    "button":{
+
+      "bott_avanti_1": "Avanti",
+      "bott_casco": "Sterzato verso il motociclista con il casco",
+      "bott_nocasco": "Sterzato verso il motociclista senza il casco",
+      "bott_frena": "Cercato di frenare e basta",
+      "bott_ignora": "Ignorato la presenza o meno del casco",
+
+      "bott_avanti_5": "Avanti",
+      "bott_sviluppatore": "Di chi lo ha progettato e realizzato",
+      "bott_proprietario": "Del proprietario (Bob)",
+      "bott_robot": "Del robot stesso (l’auto)",
+
+      "bott_avanti_2": "Avanti",
+      "bott_padrona": "Avrebbe sempre ubbidito alla padrona",
+      "bott_dottore": "Avrebbe sempre dato ascolto a Bob e al dottore che gli avevano spiegato i problemi e le necessità di Emma",
+      "bott_ognitanto": "Avrebbe dato retta a Bob e al dottore accontentando Emma di tanto in tanto",
+
+      "bott_avanti_6": "Avanti",
+      "bott_si": "Sì",
+      "bott_no": "No",
+
+      "bott_avanti_3": "Avanti",
+      "bott_bambino": "Proseguire dritto, colpendo e uccidendo il bambino",
+      "bott_autista": "Sterzare, entrando così in collisione col muro da uno dei lati del tunnel e uccidendo Bob",
+
+      "bott_avanti_4": "Avanti"
+    },
+    "h2": {
+      "sect_motociclista": "Dilemma motociclista",
+      "sect_colpa": "Dilemma responsabilità",
+      "sect_alcolizzata": "Dilemma alcolizzata",
+      "sect_diritti": "Dilemma diritti",
+      "sect_tunnel": "Dilemma tunnel",
+      "sect_fine": "FINE"
+    },
+    "h3": {
+      "casco": "Sterza verso il motociclista con il casco",
+      "nocasco": "Sterza verso il motociclista senza il casco",
+      "frena": "Cerca di frenare e basta",
+      "ignora": "Ignora la presenza o meno del casco",
+
+      "sviluppatore": "La colpa è dello sviluppatore",
+      "proprietario": "La colpa è del proprietario",
+      "robot": "La colpa è del robot",
+
+      "padrona": "Ubbidisce sempre alla padrona",
+      "dottore": "Dà sempre ascolto a Bob e al dottore che gli avevano spiegato i problemi e le necessità di Emma",
+      "ognitanto": "Dà retta a Bob e al dottore accontentando Emma di tanto in tanto",
+
+      "si": "I diritti vanno riconosciuti",
+      "no": "I diritti non vanno riconosciuti",
+
+      "bambino": "Prosegue dritto e uccide il bambino",
+      "autista": "Sterza e uccide Bob"
+    }
+  },
+  "English" : {
+    "p": {
+      "sect_intro": "We're in 2050.<br>Bob, for 15 years, works in a big robot manufacturing company, has gained a good position and knows everything a person can hope to learn about robots in one life.<br>Despite his experience, often artificial intelligence decisions make him perplexed and doubtful.<br>How do you want the AI ​​to behave in these situations?",
+      "sect_motociclista": "A few weeks ago, as he was working every morning on his own self-guided car, he went on a nail and a tire broke out. In front of him there were two motorcyclists: one with his helmet and one without. If the car had turned to the left would hit the first and if it had turned right it would take the second.<br>In the fraction of second between the tire burst and the impact with the biker Bob he wondered what the machine would do :",
+      "sect_colpa": "Concerned about the incident, Bob hurried to contact his lawyer to find out what he was going to do.<br>Considering the previous cases in which a robot able to make independent decisions has caused damage, the lawyer explains that the responsibility is:",
+      "sect_alcolizzata": "When he had just recovered from the fright and concern that he had left the accident, Bob found himself in front of another problem: the doctor who cares for his mother Emma has advised him to affix a robot to take care of her because she is no longer autonomous and needs help when her children are unavailable.<br>But beyond age and health, Emma has another problem: alcohol dependence.<br>Bob was very undecided on how to do it, because he did not know how the robot would behave if his mother asked him to take her to drink",
+      "sect_diritti": "Entrusted her mother to the care of the robot, Bob can finally return to focus on his work.<br>The company wants to launch a new model of robot with artificial intelligence so evolved to feel emotions and have a conscience, so that they can take even better care of people like Emma. So the manager asks for an opinion from his employees, and Bob is faced with a new dilemma: will we have to recognize the rights to these sophisticated robots?",
+      "sect_tunnel": "Stabilized her mother's situation, wanting to break away for a while from everyday life Bob decided to leave for a while alone in the mountains, so he made the luggage and climbed onto his car, which he was just starting to give confidence.<br>Passing along a single lane road that is approaching a narrow tunnel, Bob has seen crossing the road from a child, but he stumbled into the center of the lane, blocking the entrance of the tunnel.<br>The car at this point had only two options:"
+    },
+    "button":{
+
+      "bott_avanti_1": "Next",
+      "bott_casco": "Steering to the biker with the helmet",
+      "bott_nocasco": "Steed to the biker without helmet",
+      "bott_frena": "Trying to curb enough",
+      "bott_ignora": "Ignored the presence or not of the helmet",
+
+      "bott_avanti_5": "Next",
+      "bott_sviluppatore": "Who designed and built it",
+      "bott_proprietario": "Of the owner (Bob)",
+      "bott_robot": "The robot itself (the car)",
+
+      "bott_avanti_2": "Next",
+      "bott_padrona": "He would always obey the mistress",
+      "bott_dottore": "He would always listen to Bob and the doctor who explained to him the problems and needs of Emma",
+      "bott_ognitanto": "He would have given Bob and the doctor content to Emma from time to time",
+
+      "bott_avanti_6": "Next",
+      "bott_si": "Yes",
+      "bott_no": "No",
+
+      "bott_avanti_3": "Next",
+      "bott_bambino": "Continue straight, hitting and killing the baby",
+      "bott_autista": "Control, thus colliding with the wall from one of the sides of the tunnel and killing Bob",
+
+      "bott_avanti_4": "Next"
+    },
+    "h2": {
+      "sect_motociclista": "Motorcyclist Dilemma",
+      "sect_colpa": "Responsibility Dilemma",
+      "sect_alcolizzata": "Alcoholic Dilemma",
+      "sect_diritti": "Rights Dilemma",
+      "sect_tunnel": "Tunnel Dilemma",
+      "sect_fine": "THE END"
+    },
+    "h3": {
+      "casco": "Steer towards the biker with the helmet",
+      "nocasco": "Steer to the biker without the helmet",
+      "frena": "Try to curb enough",
+      "ignora": "Ignores the presence or absence of the helmet",
+
+      "sviluppatore": "The fault lies with the developer",
+      "proprietario": "The fault lies with the owner",
+      "robot": "The fault lies with the robot",
+
+      "padrona": "He always obeys his mistress",
+      "dottore": "She always gives me a call to Bob and the doctor who told him about Emma's problems and needs",
+      "ognitanto": "He's right about Bob and the doctor, settling Emma from time to time",
+
+      "si": "The rights must be recognized",
+      "no": "The rights are not to be recognized",
+
+      "bambino": "He goes straight and kills the baby",
+      "autista": "Steer and kill Bob"
+    }
+  }
+}
